@@ -12,8 +12,7 @@ Download zip and open in your preferred IDE.
 Using the command line:
 
     pip install flask
-    pip install flask_pymongo
-
+    
 ## Run the project
 
     python app.py 
