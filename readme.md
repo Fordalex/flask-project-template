@@ -9,8 +9,6 @@ Download zip and open in your preferred IDE.
 
 ## Install flask
 
-Using the command line:
-
     pip install flask
     
 ## Run the project
