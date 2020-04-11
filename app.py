@@ -7,6 +7,10 @@ app = Flask(__name__)
 def home():
     return render_template('home.html')
 
+@app.route('/profile')
+def profile():
+    return render_template('profile.html')
+
 if __name__ == '__main__':
     app.secret_key = 'mysecret'
     app.run(host=os.getenv("IP", "0.0.0.0"),
